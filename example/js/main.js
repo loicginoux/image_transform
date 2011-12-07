@@ -32,8 +32,7 @@
 			image_transform.make('remove_red', img_id, buildCanvas('canvas_4', w ,h, "no red component" ))
 			image_transform.make("remove_blue", img_id, buildCanvas('canvas_5', w ,h, "no blue component" ))
 			image_transform.make('remove_green', img_id, buildCanvas('canvas_6', w ,h, "no green component" ))
-			image_transform.make('invert_colors', img_id, buildCanvas('canvas_7', w ,h, "color inversion" ))
-			
+			image_transform.make('invert_colors', img_id, buildCanvas('canvas_7', w ,h, "color inversion" ))			
 			
 	 // }, false);
 

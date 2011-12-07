@@ -80,6 +80,7 @@
 			return pix;
 		},
 		
+
 		//color is 0 1 or 2 corresponding to R, G, B
 		remove_color: function(imgd, color){
 			var pix = imgd.data;
@@ -168,9 +169,6 @@
 				return imgData;
 		},
 		
-		_apply_kernel_3: function(kernel){
-				
-		},
 		
 		detect_border: function(imgd){
 			var pix = this._getGrayscaleMatrix(imgd);
