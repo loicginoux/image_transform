@@ -47,3 +47,10 @@ issues:
 -------
 
 if you have a DOM error exception 18, either put  your need ot access your files throu a local server "http://localhost..." or start chrome with ‘–allow-file-access-from-files’ 
+
+improvements:
+-------------
+- pass the image manipulation to a web worker and display a loading image
+- add the library sylvester.js for matrix manipulation
+- add transformations
+- being able to play with parameters
