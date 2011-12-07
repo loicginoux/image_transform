@@ -42,3 +42,8 @@ exemple of use:
 	
 	//call the transformation passing a transformation, athe id of the image to transform and the canvas element
 	image_transform.make( 'grayscale', 'img_elem_id', elem_canvas)
+	
+issues:
+-------
+
+if you have a DOM error exception 18, either put  your need ot access your files throu a local server "http://localhost..." or start chrome with ‘–allow-file-access-from-files’ 
