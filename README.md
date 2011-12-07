@@ -54,3 +54,7 @@ improvements:
 - add the library sylvester.js for matrix manipulation
 - add transformations
 - being able to play with parameters
+
+aknowledgements:
+---------------
+thanks to [Hakim](https://github.com/hakimel) for the example page template
